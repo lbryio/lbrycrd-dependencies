@@ -271,7 +271,7 @@ public:
     std::size_t num_children() const { return m_children.size(); }
 
 #ifndef BOOST_GRAPH_NO_BUNDLED_PROPERTIES
-    // Defualt property access delegates the lookup to global properties.
+    // Default property access delegates the lookup to global properties.
     template <typename Descriptor>
     typename graph::detail::bundled_result<Graph, Descriptor>::type&
     operator[](Descriptor x)
